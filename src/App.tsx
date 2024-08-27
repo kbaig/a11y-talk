@@ -1,15 +1,15 @@
 import React from 'react';
 
-import type { Theme } from './components/theme/theme-provider';
-import { useTheme } from './components/theme/useTheme';
-import { H3 } from './components/ui/typography/h3';
-import { HowToBuildAccessibly } from './Slides/HowToBuildAccessibly';
-import { MiscTips } from './Slides/MiscTips';
+import { Campaigns } from './Slides/Campaigns';
 import { Slide } from '@/components/Slide';
+import type { Theme } from '@/components/theme/theme-provider';
+import { useTheme } from '@/components/theme/useTheme';
 import { H1 } from '@/components/ui/typography/h1';
 import { H2 } from '@/components/ui/typography/h2';
 import { Definition } from '@/Slides/Definition';
+import { HowToBuildAccessibly } from '@/Slides/HowToBuildAccessibly';
 import { Intro } from '@/Slides/Intro';
+import { MiscTips } from '@/Slides/MiscTips';
 import { StarterResources } from '@/Slides/StarterResources';
 
 function App() {
@@ -48,43 +48,13 @@ function App() {
 
       <MiscTips skipLinkTargetRef={skipLinkTargetRef} />
 
+      <QuestionsSlide />
+
+      <Campaigns />
+
       <Slide>
         <H2>Thanks!</H2>
       </Slide>
-
-      <Slide>
-        <H2>Automated tools</H2>
-
-        {/* * - a11y linter - eslint and standalone
-         * - dev tools extensions
-         * - deque figma plugin
-         * - storybook plugins
-         * - E2E reporters
-         * - Unit test reports
-         * - CI integrations */}
-      </Slide>
-
-      <Slide>
-        <H3>Automated tools only help stem the bleeding</H3>
-
-        {/* * Caution!
-        https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/
-        30% of issues can be found automatically */}
-      </Slide>
-
-      
-
-      {/* <Slide>
-        <H2>How to audit accessibility for your application</H2>
-      </Slide> */}
-      {/* <Slide>
-        <H2>How to build an a11y campaign</H2>
-      </Slide> */}
-
-      {/* 
-
-        
-      */}
     </>
   );
 }

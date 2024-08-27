@@ -183,7 +183,7 @@ export function HowToBuildAccessibly() {
             interactive elements.
             <span className='fragment'>
               {' '}
-              Think of the focus order as a sort of table of content for the webpage's interactivity
+              Think of the focus order as a sort of table of contents for the webpage's interactivity
             </span>
           </li>
           <li className='fragment'>All natively focusable interactive elements are interactive by default</li>

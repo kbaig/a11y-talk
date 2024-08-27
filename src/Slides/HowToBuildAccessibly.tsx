@@ -48,7 +48,7 @@ export function HowToBuildAccessibly() {
 
         <OL className='mt-6'>
           <li className='fragment'>
-            Keep content readable and understandable. Ensure that your application operated predictably
+            Keep content readable and understandable. Ensure that your application operates predictably
           </li>
           <li className='fragment'>
             Anticipate common failure modes in your UX and help guide users along the right path

@@ -211,7 +211,7 @@ export function HowToBuildAccessibly() {
           <A href='https://www.w3.org/WAI/ARIA/apg/patterns/' external>
             WAI-ARIA Patterns library
           </A>
-          .
+          . It provides breakdowns for keyboard interaction and ARIA roles, states, and properties.
         </P>
 
         <P className='fragment'>
